@@ -1,0 +1,24 @@
+// Declaration of Variables
+$myColor : #22006a;
+
+@import "mixins";
+html {
+    font-size: 62.5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    width: 100vw;
+    height: 100vh;
+    @include displayFlex();
+    h1{
+        color: $myColor;
+        font-size: 5rem;
+        border: 2px solid black;
+        padding: 20px;
+        transition: 0.2s ease;
+        &:hover{
+            color: blue;
+        }
+    }
+}
