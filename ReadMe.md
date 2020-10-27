@@ -1,2 +1,1 @@
 # Learning Sass
-## just practicing
